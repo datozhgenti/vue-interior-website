@@ -19,7 +19,7 @@ const routes = [
 ];
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/vue-interior-website/"),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.path === "/about-us") {
